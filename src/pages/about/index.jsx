@@ -13,7 +13,7 @@ export const About = () => {
           <title>About | {meta.title}</title>
           <meta name="description" content={meta.description} />
         </Helmet>
-        <Row >
+        <Row>
           <Col lg="8">
             <h1 className="display-4 mb-1">About me</h1>
             <hr className="t_border my-1 ml-0 text-left" />
@@ -22,13 +22,13 @@ export const About = () => {
         <Row className="sec_sp">
           <Col lg="5" md="6" sm="12" className="text-center">
             <img
-           // eslint-disable-next-line
+              // eslint-disable-next-line
               src={require("../../assets/images/photo.png")}
               width="205px"
               height="205px"
               className="img-fluid"
               alt="Description of the image"
-              style={{borderRadius:"50%"}}
+              style={{ borderRadius: "50%" }}
             />
           </Col>
           <Col lg="7" md="6" sm="12" className="d-flex align-items-center">
@@ -41,7 +41,7 @@ export const About = () => {
         <h3 className="color_sec text-center">Skills</h3>
 
         <Row className="sec_sp">
-          <Col lg="6" md="12" sm="12">
+          <Col lg="6" md="12" sm="12" style={{ fontFamily: "cursive" }}>
             {skills.map((data, i) => (
               <div key={i} className="mb-3">
                 <h3 className="progress-title">{data.name}</h3>

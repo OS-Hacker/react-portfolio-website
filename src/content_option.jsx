@@ -85,10 +85,10 @@ const dataportfolio = [
     link: "https://github.com/OS-Hacker/react-portfolio-website",
   },
   {
-    img: "University web.png",
-    title: "University Application",
-    language: "Html , Css",
-    link: "https://github.com/OS-Hacker/University",
+    img: "ExpenseTrakerImg.png",
+    title: "Expense Tracker",
+    language: "Html , Css , Javascript",
+    link: "https://github.com/OS-Hacker/Expense-Tracker",
   },
 ];
 

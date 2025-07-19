@@ -23,11 +23,20 @@ export const Projects = () => {
           {dataportfolio.map((data, i) => {
             return (
               <div key={i} className="po_item">
-                <img src={require(`../../assets/images/${data.img}`)} alt="" height="300px"/>
+                <img
+                  src={require(`../../assets/images/${data.img}`)}
+                  alt=""
+                  height="300px"
+                />
                 <div className="content">
                   <strong className="mb-2">{data.title}</strong>
-                  <p className="mb-2" style={{fontSize:"18px"}}>{data.language}</p>
-                  <a href={data.link}>view code</a>
+                  <p className="mb-2" style={{ fontSize: "18px" }}>
+                    {data.language}
+                  </p>
+                  <div>
+                    <a href={data.viewCode}>view code</a>
+                    {data.viewProject && <a href={data.viewProject}>view project</a>}
+                  </div>
                 </div>
               </div>
             );

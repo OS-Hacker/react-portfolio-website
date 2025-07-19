@@ -55,40 +55,66 @@ const skills_2 = [
 
 const dataportfolio = [
   {
+    img: "HealthcareAssignment_Img.png",
+    title: "Healthcare Dashboard",
+    language: "React.js , Styled-Components",
+    viewCode: "https://github.com/OS-Hacker/Healthcare-Assignment",
+    viewProject: "https://healthcare-assignment-wmf9-jh1x03ow7.vercel.app/",
+  },
+  {
+    img: "ChartApplication_img.png",
+    title: "Chart Application",
+    language: "React.js , Tailwind-Css , Node.js , Express.js , MongoDB",
+    viewCode: "https://github.com/OS-Hacker/Chart-Application",
+    viewProject: "https://chart-application-y3d5.onrender.com",
+  },
+
+  {
     img: "TODO LIST.jpg",
     title: "React Todo List",
     language: "React.js , Bootstrap",
-    link: "https://github.com/OS-Hacker/React-Todo-List-App",
+    viewCode: "https://github.com/OS-Hacker/React-Todo-List-App",
+    viewProject: "https://react-todo-list-smoky-alpha.vercel.app/",
   },
   {
     img: "Food Delivery.jpg",
     title: "Food Delivery Application",
     language: "React.js , Node.js , Express.js , Mongodb , Bootstrap",
-    link: "https://github.com/OS-Hacker/MERN-Food-App",
+    viewCode: "https://github.com/OS-Hacker/MERN-Food-App",
   },
   {
     img: "E-commerce web.jpg",
     title: "E-commerce Application",
     language: "React.js , Node.js , Express.js , Mongodb , Bootstrap",
-    link: "https://github.com/OS-Hacker/E-Commerce-App",
+    viewProject:
+      "https://www.linkedin.com/posts/omshinde96_introducing-my-e-commerce-website-activity-7296505732869279744-Ag-X?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFMXHbMBCdNQ21FNWAAfSeiLv5AxdWBoKRE",
+    viewCode: "https://github.com/OS-Hacker/E-Commerce-App",
   },
   {
     img: "weather app.png",
     title: "Weather Application",
     language: "Html , Css , Javascript",
-    link: "https://github.com/OS-Hacker/Weather-App",
+    viewCode: "https://github.com/OS-Hacker/Weather-App",
+  },
+  {
+    img: "TransportzAppication_img.png",
+    title: "Transport Application",
+    language: "React.js , Node.js , Express.js , Mongodb , Bootstrap",
+    viewCode: "https://github.com/OS-Hacker/Transport-Application",
+    viewProject: "",
   },
   {
     img: "homeImg.jpg",
     title: "React Portfolio Application",
     language: "React.js , Bootstrap , EmailJS",
-    link: "https://github.com/OS-Hacker/react-portfolio-website",
+    viewCode: "https://github.com/OS-Hacker/react-portfolio-website",
   },
   {
     img: "ExpenseTrakerImg.png",
     title: "Expense Tracker",
     language: "Html , Css , Javascript",
-    link: "https://github.com/OS-Hacker/Expense-Tracker",
+    viewCode: "https://github.com/OS-Hacker/Expense-Tracker",
+    viewProject: "https://expense-tracker-lovat-chi.vercel.app/",
   },
 ];
 

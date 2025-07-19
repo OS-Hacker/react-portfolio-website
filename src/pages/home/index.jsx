@@ -52,7 +52,7 @@ export const Home = () => {
                 </p>
                 <div className="intro_btn-action pb-5">
                   <a
-                    href="https://drive.google.com/file/d/1KeYpM-px6ecqgcf5x39quYLTeGtdfv7K/view?usp=sharing"
+                    href="https://dochub.com/om-shinde-rpn0qm/5lae27DR5qxmy8zRmqjZv1/om-shinde-resume-2-pdf"
                     className="text_2"
                     target="_blank"
                     rel="noopener noreferrer"

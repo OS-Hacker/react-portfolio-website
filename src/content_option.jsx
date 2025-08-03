@@ -11,7 +11,7 @@ const introdata = {
     third: "I code cool websites",
   },
   description:
-    "Any fool can write code that a computer can understand. Good programmers write code that humans can understand.",
+    "Any fool can write code that a computer can understand Good programmers write code that humans can understand.",
   your_img_url: "bg.webp",
 };
 
@@ -73,6 +73,13 @@ const dataportfolio = [
     title: "Food Delivery Application",
     language: "React.js , Node.js , Express.js , Mongodb , Bootstrap",
     viewCode: "https://github.com/OS-Hacker/MERN-Food-App",
+  },
+  {
+    img: "blog-category.jpg",
+    title: "Blog Application",
+    language: "React.js , Node.js , Express.js , Mongodb , Styled-Components",
+    viewCode: "https://github.com/OS-Hacker/Blog-App",
+    viewProject: "https://blog-app-cpxu.onrender.com/",
   },
   {
     img: "E-commerce web.jpg",

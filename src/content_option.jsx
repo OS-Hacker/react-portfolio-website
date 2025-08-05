@@ -1,4 +1,5 @@
 const logotext = "Alpha Portfolio";
+
 const meta = {
   title: "Alpha Portfolio",
 };
@@ -79,7 +80,7 @@ const dataportfolio = [
     title: "Blog Application",
     language: "React.js , Node.js , Express.js , Mongodb , Styled-Components",
     viewCode: "https://github.com/OS-Hacker/Blog-App",
-    viewProject: "https://blog-app-cpxu.onrender.com/",
+    viewProject: "https://blog-app-ssrg.onrender.com",
   },
   {
     img: "E-commerce web.jpg",
